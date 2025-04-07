@@ -1,7 +1,8 @@
 package inverterpalavras;
-
+import javax.swing.JOptionPane;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String texto = JOptionPane.showInputDialog("Digite uma palavra/texto para inverter: ");
     }
+
 }
